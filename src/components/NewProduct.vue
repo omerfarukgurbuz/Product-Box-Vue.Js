@@ -1,7 +1,7 @@
 <template>
   <div class="row">
       <div class="card offset-2 col-md-3">
-        <div class="card-body tex-center d-flex align-items-center flex-column">
+        <div class="card-body tex-center d-flex align-items-center flex-column">    <!-- image import -->
           <img height="128" class="img-responsive text-center mb-3"
                :src="product.selectedImage == null ? '/src/assets/default.png' : product.selectedImage">
           <input ref="file" type="file" style="display: none;" @change="onChange($event)" class="form-control">
@@ -35,9 +35,20 @@
 
 <script>
   export default{
-    data(){
-      return{
-        product: {}
+    data() {
+      return {
+        product : {
+          title:null,
+          count:null,
+          price:null,
+          selectedImage: null
+        }
+      }
+    },
+    methods: {
+      onChange(e) {
+        const file = e.target.files[0];
+        this.product.selectedImage = URL.createObjectURL(file);
       }
     }
   }

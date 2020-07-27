@@ -22,20 +22,6 @@ import Progress from "./components/Progress"
 import Products from "./components/Products";
 
   export default {
-    data() {
-      return {
-        productList: [],
-        product : {
-            selectedImage: null
-        }
-      }
-    },
-    methods: {
-      onChange(e) {
-        const file = e.target.files[0];
-        this.product.selectedImage = URL.createObjectURL(file);
-      }
-    },
     components:{
       appNewProduct: NewProduct,
       appProgress: Progress,

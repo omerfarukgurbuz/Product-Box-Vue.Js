@@ -4,9 +4,8 @@
     <list default="true" id="6c3a7c63-4562-449d-9bfd-ba64178db7b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewProduct.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Progress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Progress.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
       <updated>1533389432813</updated>
       <workItem from="1533389434372" duration="791000" />
       <workItem from="1595849133598" duration="63000" />
-      <workItem from="1595849281626" duration="900000" />
+      <workItem from="1595849281626" duration="2335000" />
     </task>
     <servers />
   </component>
