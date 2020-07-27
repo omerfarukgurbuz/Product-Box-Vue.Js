@@ -2,37 +2,13 @@
   <div class="container">
     <h1 class="text-center">Ürün Ekleme Uygulaması</h1>
     <hr>
-      <app-new-product></app-new-product>
+    <app-new-product></app-new-product>
     <br><br>
-    <div class="progress">
-      <div class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-        0/10
-      </div>
-    </div>
+    <app-progress></app-progress>
     <br><br>
     <h3 class="text-center">Eklenen Ürünlerin Listesi</h3>
     <hr>
-    <div class="row product-container">
-      <div class="col-md-2 card">
-        <img class="card-img-top" src="/src/assets/default.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <small>
-            <strong>Adet : </strong> 1
-          </small>
-          <br>
-          <small>
-            <strong>Fiyat : </strong> 10
-          </small>
-          <br>
-          <small>
-            <strong>Tutar : </strong> 10
-          </small>
-        </div>
-      </div>
-
-
-    </div>
+    <app-products></app-products>
 
   </div>
 
@@ -42,11 +18,13 @@
 <script>
 
 import NewProduct from "./components/NewProduct";
+import Progress from "./components/Progress"
+import Products from "./components/Products";
 
   export default {
     data() {
       return {
-        imageList: [],
+        productList: [],
         product : {
             selectedImage: null
         }
@@ -59,7 +37,9 @@ import NewProduct from "./components/NewProduct";
       }
     },
     components:{
-      appNewProduct: NewProduct
+      appNewProduct: NewProduct,
+      appProgress: Progress,
+      appProducts: Products
     }
   }
 </script>
