@@ -3,3 +3,9 @@
       <slot></slot>
   </div>
 </template>
+
+<style scoped>
+.card:last-child{
+  margin-right: 0px;
+}
+</style>

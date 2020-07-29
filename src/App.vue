@@ -6,8 +6,6 @@
     <br><br>
     <app-progress></app-progress>
     <br><br>
-    <h3 class="text-center">Eklenen Ürünlerin Listesi</h3>
-    <hr>
     <app-products></app-products>
 
   </div>
@@ -15,7 +13,7 @@
 
 </template>
 
-<script>
+<script >
 
 import NewProduct from "./components/NewProduct";
 import Progress from "./components/Progress"
@@ -30,29 +28,11 @@ import Products from "./components/Products";
   }
 </script>
 
-<style>
+<style scoped>
   body {
     background-color: aliceblue;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
-  .card{
-    margin-right: 5px;
-    margin-bottom: 5px;
-  }
-
-  .card:last-child{
-    margin-right: 0px;
-  }
-
-  .col-md-2{
-    max-width: 15.666667%!important;
-  }
-
-  .product-container{
-    margin-left: 15px;
-  }
-
 </style>
 
