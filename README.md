@@ -1,9 +1,8 @@
-# urun-ekleme
+# ana-ekran
+![anaekran](https://user-images.githubusercontent.com/38696355/88809574-f7d1cc80-d1bc-11ea-9627-1115f0bd1dad.png)
 
-> A Vue.js project
-
+# urun eklendikten sonra
 ![urun](https://user-images.githubusercontent.com/38696355/88793147-090edf00-d1a5-11ea-93f1-d3e5f6a14583.png)
-
 
 ## Build Setup
 
