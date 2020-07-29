@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c3a7c63-4562-449d-9bfd-ba64178db7b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewProduct.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Progress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Progress.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
       <workItem from="1533389434372" duration="791000" />
       <workItem from="1595849133598" duration="63000" />
       <workItem from="1595849281626" duration="7126000" />
-      <workItem from="1596007077615" duration="5023000" />
+      <workItem from="1596007077615" duration="7538000" />
     </task>
     <servers />
   </component>
@@ -140,6 +143,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="715" y="348" key="#Notifications/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595849304338" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596012349022">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012349022" />
+    <state x="586" y="108" key="CommitChangelistDialog2" timestamp="1596012381770">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="586" y="108" key="CommitChangelistDialog2/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012381770" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1595858703513">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -165,5 +176,9 @@
     </state>
     <state x="376" y="337" width="998" height="708" key="SettingsEditor/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596008982202" />
     <state x="376" y="347" key="SettingsEditor/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596010831247" />
+    <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596012587432">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012587432" />
   </component>
 </project>

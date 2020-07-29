@@ -26,10 +26,15 @@
     },
     components: {
       appProduct:Product
-    },                                                /* product object event listiner */
+    },
     created(){
-      eventBus.$on("productAdded",(product) => {
-        this.productList.push(product)
+      eventBus.$on("productAdded",(product) => {                     /* product object event listiner */
+        if(this.productList.length < 2){
+          this.productList.push(product);
+          eventBus.$emit("progressBarUpdate",this.productList.length);       /* progress bar update event */
+        }else{
+          alert("Daha fazla urun ekleyemezsin");
+        }
       });
     }
   }
