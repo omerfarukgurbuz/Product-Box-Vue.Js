@@ -4,6 +4,8 @@
     <list default="true" id="6c3a7c63-4562-449d-9bfd-ba64178db7b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewProduct.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,24 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -39,17 +58,112 @@
       <updated>1533389432813</updated>
       <workItem from="1533389434372" duration="791000" />
       <workItem from="1595849133598" duration="63000" />
-      <workItem from="1595849281626" duration="3387000" />
+      <workItem from="1595849281626" duration="7126000" />
+      <workItem from="1596007077615" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+        <entry key="3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="715" y="348" key="#Notifications" timestamp="1595849304338">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="715" y="348" key="#Notifications/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595849304338" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1595858703513">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595858703513" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1596012007750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012007750" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1596012007750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.center/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012007750" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1596012007749">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.left/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012007749" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1596012007750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.right/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596012007750" />
+    <state x="376" y="347" width="998" height="708" key="SettingsEditor" timestamp="1596010831247">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="376" y="337" width="998" height="708" key="SettingsEditor/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596008982202" />
+    <state x="376" y="347" key="SettingsEditor/-1920.-8.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1596010831247" />
   </component>
 </project>

@@ -34,7 +34,10 @@
 </template>
 
 <script>
-  export default{
+
+import {eventBus} from "../main";
+
+export default{
     data() {
       return {
         product : {
@@ -50,10 +53,17 @@
       onChange(e) {
         const file = e.target.files[0];
         this.product.selectedImage = URL.createObjectURL(file);
-      },
-      addProduct(){
+      },                                                                              /* product emit */
+      addProduct: function () {
         this.product.totalPrice = this.product.count * this.product.price;
-        console.log(this.product);
+        eventBus.$emit("productAdded", this.product);
+        this.product = {                                                        /* ürün listemi sifirladim tekrardan */
+          title: null,
+          count: null,
+          price: null,
+          totalPrice: null,
+          selectedImage: null
+        }
       }
     }
   }
